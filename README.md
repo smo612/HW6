@@ -2,7 +2,7 @@
 
 ## 目錄結構
 
-HW6 Transfer Learning and Hugging Face/  
+HW6-Transfer-Learning-and-Hugging-Face/  
 ├── docs/  
 ├── test/&nbsp;&nbsp;&nbsp;&nbsp;   # 測試數據集 (Test Data Directory)  
 ├── train/&nbsp;&nbsp;&nbsp;&nbsp;   # 訓練數據集 (Train Data Directory)  
@@ -10,9 +10,9 @@ HW6 Transfer Learning and Hugging Face/
 ├── HW6-2.ipynb&nbsp;&nbsp;&nbsp;&nbsp;   # HW6-2 的 Jupyter Notebook  
 └── README.md&nbsp;&nbsp;&nbsp;&nbsp;   # 專案的說明文件  
 
-由於我的 CUDA 版本和 TensorFlow 不匹配，所以我這邊改成 PyTorch。  
+由於我的 CUDA 版本為12.6，找不到可匹配的tensorflow版本，所以改用PyTorch進行訓練。  
 ```python
-install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
 `test` 和 `train` 為 Kaggle 下載的 Face-Mask-Detection 數據集。  
 
