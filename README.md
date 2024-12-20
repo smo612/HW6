@@ -3,14 +3,14 @@
 ## 目錄結構
 
 HW6 Transfer Learning and Hugging Face/  
-├── docs/
-├── test/
+├── docs/ 
+├── test/ 
 ├── train/
-├── HW6-1.ipynb&nbsp;&nbsp;&nbsp;&nbsp;   # HW6-1 的 Jupyter Notebook  
-├── HW6-2.ipynb&nbsp;&nbsp;&nbsp;&nbsp;   # HW6-2 的 Jupyter Notebook  
-└── README.md&nbsp;&nbsp;&nbsp;&nbsp;   # 專案的說明文件  
+├── HW6-1.ipynb   # HW6-1 的 Jupyter Notebook  
+├── HW6-2.ipynb   # HW6-2 的 Jupyter Notebook  
+└── README.md   # 專案的說明文件  
 
-由於我的CUDA版本和tensorflow不匹配，所以我這邊改成pytorch。
+由於我的CUDA版本和tensorflow不匹配，所以我這邊改成pytorch。 
 `test` 和 `train` 為kaggle下載的Face-Mask-Detection數據集
 
 ##  step 1: build vgg 16 pretrained model
