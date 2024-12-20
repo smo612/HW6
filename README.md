@@ -4,11 +4,11 @@
 
 HW6-Transfer-Learning-and-Hugging-Face/  
 ├── docs/  
-├── test/&nbsp;&nbsp;&nbsp;&nbsp;   # 測試數據集 (Test Data Directory)  
-├── train/&nbsp;&nbsp;&nbsp;&nbsp;   # 訓練數據集 (Train Data Directory)  
-├── HW6-1.ipynb&nbsp;&nbsp;&nbsp;&nbsp;   # HW6-1 的 Jupyter Notebook  
-├── HW6-2.ipynb&nbsp;&nbsp;&nbsp;&nbsp;   # HW6-2 的 Jupyter Notebook  
-└── README.md&nbsp;&nbsp;&nbsp;&nbsp;   # 專案的說明文件  
+├── test/    
+├── train/    
+├── HW6-1.ipynb   
+├── HW6-2.ipynb    
+└── README.MD  
 
 由於我的 CUDA 版本為12.6，找不到可匹配的tensorflow版本，所以改用PyTorch進行訓練。  
 ```python
