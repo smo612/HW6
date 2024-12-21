@@ -9,13 +9,13 @@ HW6-Transfer-Learning-and-Hugging-Face/
 ├── HW6-1.ipynb   
 ├── HW6-2.ipynb    
 └── README.MD  
-
+#
 由於我的 CUDA 版本為12.6，找不到可匹配的tensorflow版本，所以改用PyTorch進行訓練。  
 ```python
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
 `test` 和 `train` 為 Kaggle 下載的 Face-Mask-Detection 數據集。  
-
+#
 
 ##  step 1: build vgg 16 pretrained model
 
