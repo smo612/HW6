@@ -100,4 +100,19 @@ Loading pipeline components...: 100%|██████████| 7/7 [00:02<
 Generating image from text...
 ```
 
-![alt text](docs/image-2.png)
+![alt text](docs/image-2.png)  
+
+```python
+Using device: cuda
+
+Input Chinese Text: 狗戴耳機
+Translating text...
+Translated Text: Dogs with headphones.
+Keyword arguments {'resume_download': True} are not expected by StableDiffusionPipeline and will be ignored.
+Loading pipeline components...: 100%|██████████| 7/7 [00:04<00:00,  1.63it/s]
+Generating image from text...
+
+100%|██████████| 50/50 [12:53<00:00, 15.48s/it]
+```
+
+![alt text](docs/dog.png)
